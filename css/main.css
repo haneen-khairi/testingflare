@@ -182,15 +182,25 @@ footer .ul-lister .li-li{
     margin: 8px auto;
 }
 .btn-aboutmore{
+    transition: all 1s ease-in-out;
 border-radius:15px;
     padding: 20px;
 color:white;
 text-decoration: none;
     margin: auto auto;
-    background: linear-gradient(118deg, #6f8391,#cfd6db85, #bc1818);
+    background-color:grey;
+
+    /* background: linear-gradient(118deg, #6f8391,#cfd6db85, #bc1818); */
 }
 .btn-aboutmore:hover{
+    transition: all 1s ease-in-out;
     color:#fff;
 text-decoration: none;
     background: linear-gradient(118deg, #bc1818,#cfd6db85, #6f8391);
+}
+.slide-data .title-1 div{
+    text-shadow:0px 0px #fff;
+}
+.slide-data .subtitle span{
+    text-shadow: 1px 0px #000;
 }

@@ -204,3 +204,7 @@ text-decoration: none;
 .slide-data .subtitle span{
     text-shadow: 1px 0px #000;
 }
+.text-grey{
+
+    color:grey;
+}

@@ -1,0 +1,104 @@
+@media only screen and (max-width: 991px){
+    .menu-header a:not(.navbar-brand):hover, .menu-header a:not(.navbar-brand):focus{
+        color:white
+    }
+    .menu-header a{
+        color:white!important;
+    }
+    .founder-image {
+        width: 350px;
+        min-width: 100%;
+    }
+    .me-up {
+        font-size: 30px;
+    }
+    .mb-5, .my-5 {
+        margin-bottom: 0rem !important;
+    }
+    .bg-whites {
+        height: 232px;
+        width: 290px;
+        margin: 20px auto;
+    }
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu-header a:not(.navbar-brand):hover, .menu-header a:not(.navbar-brand):focus{
+        color:white
+    }
+    .menu-header a{
+        color:white!important;
+    }
+    .about .founder-image {
+        margin-top: -40px;
+        width: 350px;
+    }
+    .about .me-up {
+        font-size: 30px;
+    }
+    .mb-5, .my-5 {
+        margin-bottom: 0rem !important;
+    }
+    .bg-whites {
+        height: 232px;
+        width: 290px;
+        margin: 20px auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .bg-whites {
+        height: 232px;
+        width: 250px;
+        margin: 20px auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bg-whites {
+        height: 232px;
+        width: 250px;
+        margin: 20px auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-header a:not(.navbar-brand) {
+        color: #000000;
+      
+        font-size: 11px;
+   
+    }
+    
+    .form-inline .input-group, .form-inline .custom-select {
+        margin-bottom: -9px;
+        margin-top: 4px;
+        margin-right: 15px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        margin-left:10px;
+    }
+    .navbar-nav .mg-left {
+        margin: 0px 4px;
+    }
+
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbar-nav .mg-left {
+        margin: 0px 20px;
+    }
+    .menu-header a:not(.navbar-brand) {
+        color: #000000;
+        font-size: 15px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        margin-left:60px;
+    }
+}
